@@ -1,0 +1,18 @@
+# ls
+alias ll='ls -ohGF'
+alias l='ls -lGa'
+
+# Other Commands
+alias untar='tar -xvf'
+alias mkdir='mkdir -p'
+alias vi='vim'
+
+# Directories
+alias c='cd ..'
+
+# Files
+alias editbash='vim ~/.bashrc'
+alias editalias='vim ~/.bash_aliases'
+alias editprof='vim ~/.bash_profile'
+alias hosts='sudo vim /etc/hosts'
+alias vimrc='vim ~/.vimrc'

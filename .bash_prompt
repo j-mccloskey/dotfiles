@@ -1,0 +1,13 @@
+# Load in the git branch prompt script.
+source ~/.git-prompt.sh
+source ~/.git-completion.bash
+source ~/.maven-completion.bash
+
+# Display
+export GIT_PS1_SHOWDIRTYSTATE=true
+export GIT_PS1_SHOWCOLORHINTS=true
+export GIT_PS1_SHOWUNTRACKEDFILES=true
+export GIT_PS1_SHOWSTASHSTATE=true
+export GIT_PS1_SHOWUPSTREAM="auto"
+
+export PS1="\[$(tput bold)\]\[$(tput setaf 4)\]\u@\h \[$(tput setaf 7)\]\w \$(__git_ps1) \n\$ \[$(tput sgr0)\]"
