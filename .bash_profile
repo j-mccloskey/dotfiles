@@ -11,6 +11,8 @@ export HISTSIZE=10000
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
+export GREP_OPTIONS='--color=always' 
+
 # Common junk
 [[ -s "$HOME/.commonrc" ]] && source "$HOME/.commonrc"
 
