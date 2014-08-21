@@ -1,4 +1,10 @@
 dotfiles
 ========
 
-Run ./install.sh to symlink the dotfiles contained in this repository to your home folder. Reload terminal for customisations to take effect
+Run the following command to symlink the dotfiles contained in this repository to your home folder:
+
+```sh
+./install.sh
+```
+
+Reload terminal for customisations to take effect.
