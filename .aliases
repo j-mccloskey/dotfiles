@@ -16,3 +16,8 @@ alias editalias='vim ~/.bash_aliases'
 alias editprof='vim ~/.bash_profile'
 alias hosts='sudo vim /etc/hosts'
 alias vimrc='vim ~/.vimrc'
+
+
+# Maven
+alias mci='mvn clean install'
+alias mct='mvn clean test'
