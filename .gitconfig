@@ -1,8 +1,8 @@
 [user]
   name = John McCloskey
-  email = john.mccloskey@bitnet.io
+  email = johnmccloskey123@hotmail.com
 [core]
-  excludesfile = /opt/boxen/config/git/gitignore
+  excludesfile = ~/.gitignore
 	ignorecase = false
 [difftool "sourcetree"]
   cmd = opendiff \"$LOCAL\" \"$REMOTE\"
@@ -20,8 +20,6 @@
   st = status
   br = branch
 
-[credential]
-  helper = /opt/boxen/bin/boxen-git-credential
 [filter "media"]
   clean = git-media-clean %f
   smudge = git-media-smudge %f
