@@ -11,11 +11,11 @@ regexp=(Completed)
 colours=cyan
 =====
 # Start or end lifecycle states
-regexp=(Terminating|ContainerCreating)
+regexp=(Terminating|ContainerCreating|Pending)
 colours=yellow
 ======
 # Bad Lifecycle states
-regexp=(Failed|Unknown|CrashLoopBackOff)
+regexp=(Failed|Unknown|CrashLoopBackOff|InvalidImageName|Error)
 colours=red
 ======
 # Age
