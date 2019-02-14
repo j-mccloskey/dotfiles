@@ -1,6 +1,6 @@
 #!/bin/bash
 
-declare -a arr=(".aliases" ".bash_profile" ".bash_prompt" ".commonrc" ".git-completion.bash" ".git-prompt.sh" ".gitconfig" ".maven-completion.bash" ".tmux.conf" ".vimrc" ".kube-ps1.sh")
+declare -a arr=(".aliases" ".bash_profile" ".bash_prompt" ".commonrc" ".git-completion.bash" ".git-prompt.sh" ".gitconfig" ".maven-completion.bash" ".tmux.conf" ".vimrc" ".kube-ps1.sh" ".grc")
 dest_dir=~
 cwd=$(pwd)
 
