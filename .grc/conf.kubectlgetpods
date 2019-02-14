@@ -19,7 +19,7 @@ regexp=(Failed|Unknown|CrashLoopBackOff)
 colours=red
 ======
 # Age
-regexp=(\s\d{1,3})(s|h|d|y)
+regexp=(\s\d{1,3})(s|m|h|d|y)
 colours=blue
 ======
 # Restarts
