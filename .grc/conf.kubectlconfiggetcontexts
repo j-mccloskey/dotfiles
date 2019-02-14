@@ -1,0 +1,14 @@
+# Headers
+regexp=(?:\s{2}|^)(CURRENT|NAME|CLUSTER|AUTHINFO|NAMESPACE)(?:\s|$)
+colours=default,underline
+=====
+# Environment aware colours
+regexp=(.*dev.*)
+colours=green
+=====
+regexp=(.*demo|.*stage|.*staging)
+colours=yellow
+=====
+regexp=(.*production|.*prod.*)
+colours=red
+=====
