@@ -1,0 +1,42 @@
+# Headers
+regexp=(?:\s{2}|^)(NAME|READY|STATUS|RESTARTS|AGE)(?:\s|$)
+colours=default,underline
+======
+# Running pods are good 
+regexp=(Running)
+colours=green
+=====
+# Completed pods are also good
+regexp=(Completed)
+colours=cyan
+=====
+# Start or end lifecycle states
+regexp=(Terminating|ContainerCreating)
+colours=yellow
+======
+# Bad Lifecycle states
+regexp=(Failed|Unknown|CrashLoopBackOff)
+colours=red
+======
+# Age
+regexp=(\s\d{1,3})(s|h|d|y)
+colours=blue
+======
+# Restarts
+regexp=(\s{4}[1-5]\s{4})
+colour=yellow
+=====
+regexp=(\s{4}([6-9]|\d{2,5})\s{4})
+colour=red
+=====
+# Ready
+regexp=(1\/1|2\/2|3\/3|4\/4|5\/5)
+colour=green
+=====
+# Not Ready
+regexp=(0\/1|0\/2|0\/3|0\/4|1\/2|1\/3|1\/4|2\/3|2\/4|3\/4)
+colour=red
+=====
+# API pods
+regexp=(^[a-z]*-api-[a-z0-9-]*|fantastec-[a-z0-9-]*)
+colour=default

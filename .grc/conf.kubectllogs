@@ -1,0 +1,18 @@
+# Log Levels
+======
+# Warn level logs and 4xx responses
+regexp=(.*WARN.*|\"\s4\d{2})
+colours=yellow
+======
+# Error level logs and 5xx responses
+regexp=(.*ERROR.*|\"\s5\d{2})
+colours=red
+======
+# 2xx responses
+regexp=(\"\s2\d{2})
+colours=green
+======
+# Detect Request URLs
+regexp=(GET|POST|PATCH|DELETE)(\s)(\/\S*)
+colours=blue
+======

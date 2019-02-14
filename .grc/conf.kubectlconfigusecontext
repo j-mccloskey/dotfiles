@@ -1,0 +1,10 @@
+# Environment aware colours
+regexp=(.*dev.*)
+colours=green
+=====
+regexp=(.*demo|.*stage|.*staging)
+colours=yellow
+=====
+regexp=(.*production)
+colours=red
+=====

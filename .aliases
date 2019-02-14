@@ -23,3 +23,9 @@ alias mct='mvn clean test'
 
 # Processes
 alias k9='kill -9'
+
+alias kcConnectDev='kops export kubecfg dev-cluster.fantastec-swaps.io --state=s3://k8s-cluster-fantastec-swaps-state-store'
+alias kcConnectDemo='kops export kubecfg cluster.fantastec-swaps.io --state=s3://k8s-cluster-fantastec-swaps-state-store'
+
+# Kubernetes Colour
+alias kubectl='/usr/local/bin/grc kubectl'

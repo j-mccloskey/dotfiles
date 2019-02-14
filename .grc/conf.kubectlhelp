@@ -1,0 +1,17 @@
+regexp=  \#.*
+colour=blue
+-
+regexp=--.+?(?==)
+colour=yellow
+-
+regexp=.*Commands
+colour=red
+-
+regexp=^Usage:
+color=cyan
+-
+regexp=^Examples:
+color=cyan
+-
+regexp=^Options:
+color=cyan

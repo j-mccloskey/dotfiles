@@ -11,3 +11,7 @@ export GIT_PS1_SHOWSTASHSTATE=true
 export GIT_PS1_SHOWUPSTREAM="auto"
 
 export PS1="\[$(tput bold)\]\[$(tput setaf 4)\]\u@\h \[$(tput setaf 7)\]\w \$(__git_ps1) \n\$ \[$(tput sgr0)\]"
+
+export KUBE_PS1_NS_ENABLE=false
+source ~/.kube-ps1.sh
+PS1='$(kube_ps1) '$PS1
