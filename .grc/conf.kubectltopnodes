@@ -1,0 +1,12 @@
+# Headers
+regexp=(?:\s{2}|^)(NAME|CPU\(cores\)|CPU%|MEMORY\(bytes\)|MEMORY%)(?:\s|$)
+colours=default,underline
+======
+regexp=(\b(0?[1-9]|[12][0-9]|3[0-3])\b%)
+colour=green
+=====
+regexp=(\b([3][4-9]|[4-5][0-9]|6[0-6])\b%)
+colour=yellow
+=====
+regexp=(\b([6][7-9]|[7-9][0-9]|100])\b%)
+colour=red
