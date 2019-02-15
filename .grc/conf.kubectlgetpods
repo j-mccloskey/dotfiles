@@ -15,7 +15,7 @@ regexp=(Terminating|ContainerCreating|Pending)
 colours=yellow
 ======
 # Bad Lifecycle states
-regexp=(Failed|Unknown|CrashLoopBackOff|InvalidImageName|Error)
+regexp=(Failed|Unknown|CrashLoopBackOff|InvalidImageName|Error|NodeLost)
 colours=red
 ======
 # Age
