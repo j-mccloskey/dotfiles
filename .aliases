@@ -29,3 +29,7 @@ alias kcConnectDemo='kops export kubecfg cluster.fantastec-swaps.io --state=s3:/
 
 # Kubernetes Colour
 alias kubectl='/usr/local/bin/grc kubectl'
+
+# thef
+eval $(thefuck --alias f)
+eval $(thefuck --alias)
