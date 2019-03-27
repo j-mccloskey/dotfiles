@@ -33,3 +33,7 @@ alias kubectl='/usr/local/bin/grc kubectl'
 # thef
 eval $(thefuck --alias f)
 eval $(thefuck --alias)
+
+# disable stuff
+alias=rebc='sudo launchctl load -w /Library/LaunchDaemons/com.bluecoat.ua.plist'
+alias unbc='sudo launchctl unload -w /Library/LaunchDaemons/com.bluecoat.ua.plist'
