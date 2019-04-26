@@ -12,9 +12,6 @@ export CLICOLOR=1
 export GREP_OPTIONS='--color=always'
 
 
-# export NPM_TOKEN="e7b0cdcc-43f4-4d8d-8195-37f85e0428f6"
-export NPM_TOKEN="e88bcdab-b3ec-4b3f-a76a-a3b1462d7918"
-
 # Common junk
 [[ -s "$HOME/.commonrc" ]] && source "$HOME/.commonrc"
 
@@ -25,6 +22,7 @@ fi
 
 source <(kubectl completion bash)
 source <(helm completion bash)
+complete -C /usr/local/Cellar/terraform/0.11.13/bin/terraform terraform
 
 PATH="/usr/local/bin:$PATH"
 [[ -d "$HOME/bin" ]] && export PATH="$HOME/bin:$PATH";
